@@ -1,4 +1,4 @@
-FROM cirrusci/flutter:latest
+FROM cirrusci/flutter:1.22.5
 
 RUN apt-get update -yq && \
     DEBIAN_FRONTEND=noninteractive apt-get -yq install wget curl && \
