@@ -1,4 +1,4 @@
-FROM cirrusci/flutter:stable
+FROM cirrusci/flutter:latest
 
 RUN apt-get update -yq && \
     DEBIAN_FRONTEND=noninteractive apt-get -yq install wget curl && \
